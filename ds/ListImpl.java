@@ -95,6 +95,7 @@ public class ListImpl <E> implements List<E> {
 
     private static class Node<E>{
     E data;
+    @SuppressWarnings("unused")
     int pos;
     Node<E> next;
     Node(E data,int pos) {
